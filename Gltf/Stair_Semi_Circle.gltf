@@ -1,0 +1,165 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Circle",
+            "scale" : [
+                1,
+                0.5759831070899963,
+                1
+            ],
+            "translation" : [
+                -0.3324432373046875,
+                0.15300369262695312,
+                0.24190330505371094
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Floor",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "FloorNormal_2048_CC0",
+            "uri" : "Textures/FloorNormal_2048_CC0.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "FloorColor_2048_CC0",
+            "uri" : "Textures/FloorColor_2048_CC0.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "FloorRoughness_1024_CC0",
+            "uri" : "Textures/FloorRoughness_1024_CC0.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1880,
+            "max" : [
+                17.46607208251953,
+                3.865851640701294,
+                17.477834701538086
+            ],
+            "min" : [
+                -17.46607208251953,
+                -1.3317912817001343e-07,
+                -2.7882215363206342e-05
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1880,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1880,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 5169,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 22560,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22560,
+            "byteOffset" : 22560
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15040,
+            "byteOffset" : 45120
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10338,
+            "byteOffset" : 60160
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 70500,
+            "uri" : "Stair_Semi_Circle.bin"
+        }
+    ]
+}

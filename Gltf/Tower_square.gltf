@@ -1,0 +1,260 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Tower_Square",
+            "rotation" : [
+                0,
+                0.7071065902709961,
+                0,
+                -0.7071069478988647
+            ],
+            "translation" : [
+                0,
+                5.088691711425781,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Wall",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "name" : "Floor",
+            "normalTexture" : {
+                "index" : 2
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 4
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.007",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "WallNormal_2048_CC0",
+            "uri" : "Textures/WallNormal_2048_CC0.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "WallColor_2048_CC0",
+            "uri" : "Textures/WallColor_2048_CC0.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "FloorNormal_2048_CC0",
+            "uri" : "Textures/FloorNormal_2048_CC0.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "FloorColor_2048_CC0",
+            "uri" : "Textures/FloorColor_2048_CC0.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "FloorRoughness_1024_CC0",
+            "uri" : "Textures/FloorRoughness_1024_CC0.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1170,
+            "max" : [
+                3.4770736694335938,
+                4.519863605499268,
+                3.522148609161377
+            ],
+            "min" : [
+                -3.5294647216796875,
+                -5.114251136779785,
+                -3.5242764949798584
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1170,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 1950,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 28,
+            "max" : [
+                2.9689712524414062,
+                3.118795871734619,
+                2.9773848056793213
+            ],
+            "min" : [
+                -3.00018310546875,
+                -4.908268928527832,
+                -2.9917681217193604
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 28,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 28,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 54,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 14040,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14040,
+            "byteOffset" : 14040
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9360,
+            "byteOffset" : 28080
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3900,
+            "byteOffset" : 37440
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 41340
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 41676
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 224,
+            "byteOffset" : 42012
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 108,
+            "byteOffset" : 42236
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 42344,
+            "uri" : "Tower_square.bin"
+        }
+    ]
+}
