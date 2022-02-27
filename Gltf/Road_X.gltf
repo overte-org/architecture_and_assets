@@ -40,9 +40,7 @@
                     "index" : 1
                 },
                 "metallicFactor" : 0,
-                "metallicRoughnessTexture" : {
-                    "index" : 2
-                }
+                "roughnessFactor" : 0.5
             }
         }
     ],
@@ -70,10 +68,6 @@
         {
             "sampler" : 0,
             "source" : 1
-        },
-        {
-            "sampler" : 0,
-            "source" : 2
         }
     ],
     "images" : [
@@ -86,11 +80,6 @@
             "mimeType" : "image/jpeg",
             "name" : "FloorColor_2048_CC0",
             "uri" : "Textures/FloorColor_2048_CC0.jpg"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "FloorRoughness_1024_CC0",
-            "uri" : "Textures/FloorRoughness_1024_CC0.png"
         }
     ],
     "accessors" : [
