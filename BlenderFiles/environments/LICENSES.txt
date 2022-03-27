@@ -1,0 +1,1 @@
+new_hub_hdr.blend, sky_stars.blend and related textures are released under Creative Commons CC0 license.

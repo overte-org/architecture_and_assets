@@ -1,0 +1,1 @@
+new_hub_walls.blend, wood_floor.blend, wood_grain.blend and related textures are released under Creative Commons CC0 license.
