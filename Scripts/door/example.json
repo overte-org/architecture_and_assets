@@ -1,0 +1,64 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{373334e2-82b9-4a48-87ca-ddbaafc35948}",
+    "type": "Model",
+    "lastEdited": 1657376564715468,
+    "userData": "{\n  \"degrees\": \"-90\",\n  \"soundCloseURL\": \"https://github.com/overte-org/architecture_and_assets/blob/main/Scripts/door/502460__121269i9__doorclosing-mixdown.mp3?raw=true\",\n  \"soundOpenURL\": \"https://github.com/overte-org/architecture_and_assets/blob/main/Scripts/door/502460__121269i9__doorclosing-mixdown.mp3?raw=true\",\n  \"time\": \"0.5\"\n}",
+    "dimensions": {
+        "x": 0.14000263810157776,
+        "y": 1.9408884048461914,
+        "z": 0.7418092489242554
+    },
+    "rotation": {
+        "x": 0.0003814697265625,
+        "y": 0.9927977323532104,
+        "z": 0.0014801025390625,
+        "w": -0.11967653036117554
+    },
+    "created": 1657375642823744,
+    "lastEditedBy": "{f90708ed-73db-47ff-a948-d3c26110b5d9}",
+    "queryAACube": {
+        "x": -1.0412647724151611,
+        "y": -1.0412647724151611,
+        "z": -1.0412647724151611,
+        "scale": 2.0825295448303223
+    },
+    "grab": {
+        "grabbable": false,
+        "triggerable": true,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/overte-org/architecture_and_assets/main/Scripts/door/openDoor-client.js",
+    "serverScripts": "https://raw.githubusercontent.com/overte-org/architecture_and_assets/main/Scripts/door/openDoor-server.js",
+    "shapeType": "simple-compound",
+    "modelURL": "https://github.com/overte-org/architecture_and_assets/blob/main/Scripts/door/door.glb?raw=true?1",
+    "blendshapeCoefficients": "{\n}\n",
+    "useOriginalPivot": true,
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{502ab5c8-1c05-4733-8725-692bf86a53ae}",
+  "Version": 133
+}
