@@ -1,0 +1,229 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{6ffda3a7-836a-47ff-8cd7-79700239b74e}",
+    "type": "Light",
+    "lastEdited": 1657374144926292,
+    "name": "Light1",
+    "position": {
+        "x": 0,
+        "y": 0.00044214725494384766,
+        "z": 0
+    },
+    "dimensions": {
+        "x": 7.175589084625244,
+        "y": 7.175589084625244,
+        "z": 7.175589084625244
+    },
+    "rotation": {
+        "x": -0.0000762939453125,
+        "y": -0.061478614807128906,
+        "z": -0.0001373291015625,
+        "w": 0.99810791015625
+    },
+    "created": 1657374081777416,
+    "lastEditedBy": "{f90708ed-73db-47ff-a948-d3c26110b5d9}",
+    "queryAACube": {
+        "x": -6.214242458343506,
+        "y": -6.213800430297852,
+        "z": -6.214242458343506,
+        "scale": 12.428484916687012
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "serverScripts": "http://192.168.2.18/Halloween/empty.js",
+    "intensity": 10,
+    "exponent": 1,
+    "cutoff": 75,
+    "falloffRadius": 1,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{0ae25530-fc9a-4db3-95f9-a03f9aa9a733}",
+    "type": "Light",
+    "lastEdited": 1657374144926191,
+    "name": "Light1",
+    "position": {
+        "x": 0.5947465896606445,
+        "y": 0,
+        "z": 2.1847360134124756
+    },
+    "dimensions": {
+        "x": 7.175589084625244,
+        "y": 7.175589084625244,
+        "z": 7.175589084625244
+    },
+    "rotation": {
+        "x": -0.0000762939453125,
+        "y": -0.061478614807128906,
+        "z": -0.0001373291015625,
+        "w": 0.99810791015625
+    },
+    "created": 1656615191183360,
+    "lastEditedBy": "{f90708ed-73db-47ff-a948-d3c26110b5d9}",
+    "queryAACube": {
+        "x": -5.619495868682861,
+        "y": -6.214242458343506,
+        "z": -4.029506683349609,
+        "scale": 12.428484916687012
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "serverScripts": "http://192.168.2.18/Halloween/empty.js",
+    "intensity": 10,
+    "exponent": 1,
+    "cutoff": 75,
+    "falloffRadius": 1,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{15285930-8473-4d54-9fba-e839e04b8314}",
+    "type": "Model",
+    "lastEdited": 1657374170804103,
+    "name": "lightSwitch",
+    "userData": "{\"name\":\"Light1\"}",
+    "position": {
+        "x": 4.960460662841797,
+        "y": 0.16367793083190918,
+        "z": 0.6034708023071289
+    },
+    "dimensions": {
+        "x": 0.07607294619083405,
+        "y": 0.5336198210716248,
+        "z": 0.5336198210716248
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": -0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1657366005153792,
+    "lastEditedBy": "{c1375a3b-8ba1-4360-a517-3e96605a62c4}",
+    "queryAACube": {
+        "x": 4.581222057342529,
+        "y": -0.21556055545806885,
+        "z": 0.22423231601715088,
+        "scale": 0.758476972579956
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/overte-org/architecture_and_assets/main/Scripts/lightSwitch/LightSwitchClient.js?2",
+    "scriptTimestamp": 1657374123784,
+    "serverScripts": "https://raw.githubusercontent.com/overte-org/architecture_and_assets/main/Scripts/lightSwitch/LightSwitchServer.js?2",
+    "shapeType": "simple-compound",
+    "modelURL": "https://github.com/overte-org/architecture_and_assets/blob/main/Scripts/lightSwitch/switch.fbx?raw=true",
+    "jointRotationsSet": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+    ],
+    "jointRotations": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+        },
+        {
+            "x": -0.5213550329208374,
+            "y": 0.4776836633682251,
+            "z": -0.5213550329208374,
+            "w": 0.4776836633682251
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+        }
+    ],
+    "blendshapeCoefficients": "{\n}\n",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{8e979707-c36e-473a-9958-a43583f8994b}",
+  "Version": 133
+}
